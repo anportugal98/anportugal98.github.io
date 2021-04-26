@@ -1,11 +1,24 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .hd {
   border: 5px outset gray;
   background-color: #f7cac9;    
   text-align: center;
 }
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 </style>
 </head>
 	
@@ -29,23 +42,28 @@
 	</a>
 </p>
 
-<center><h3>Family Background:</h3></center>
-<center>
-<ul>
-<li>Father's Name: Arthur S. Portugal </li>
-<li>Mother's Name: Ma Cherry P. Portugal </li>
-<li>Siblings: 4 </li>
-</ul>
-</center
-
-<center>
-<h3>Educational Background:</h3>
-<ol>
-<li>Deo Roma College of Tanza (2006-2015)</li>
-<li>Amaya School of Home Industries (2015-2018)</li>
-<li>San Sebastian College Recoletos de Cavite (2018-2020)</li>
-</ol>
-</center>
+<div class="row">
+ <div class="column">
+	<h3>Family Background:</h3>
+	<ul>
+		<li>Father's Name: Arthur S. Portugal </li>
+		<li>Mother's Name: Ma Cherry P. Portugal </li>
+		<li>Siblings: 4 </li>
+	</ul>
+  </div>
+ <div class="column">
+	<h3>Educational Background:</h3>
+	<ol>
+		<li>Deo Roma College of Tanza (2006-2015)</li>
+		<li>Amaya School of Home Industries (2015-2018)</li>
+		<li>San Sebastian College Recoletos de Cavite (2018-2020)</li>
+	</ol>
+  </div>
+  <div class="column">
+	<h3>Favorites:</h3>
+	<p> Click here -> </p>
+  </div>
+</div>
 	
 <center><h4>Future Activities:</h4></center>
 
