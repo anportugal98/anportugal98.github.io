@@ -2,28 +2,56 @@
 <html>
 <head>
 <style>
-a:link {
-  background-color: powderblue;
+a.one:link,a.one:visited {
+  background-color: white;
   color: black;
   padding: 14px 25px;
   text-align:center;
   text-decoration: none;
   display: inline-block;
+  margin: 30px;
 }
-a:visited {
-  background-color: #f7cac9;
-  text-decoration: underline;
-}
-a:hover, a:active {
+a.one:hover, a.one:active {
   background-color: gray;
+  color: white;
+}
+
+a.two:link,a.two:visited { 
+  background-color: #f7cac9;
+  color:black;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px;
+}
+a.two:hover, a.two:active {
+  background-color: #bc5449;
+  color: white;
+}
+
+a.three:link,a.three:visited {
+  background-color: gray;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px;
+}
+a.three:hover, a.three:active {
+  background-color: black;
   color: white;
 }
 </style>
 </head>
 
-<body>
-<h1>LINKS</h1>
-  <a href="Index.html">ABOUT ME</a>
-  <a href="page1.html">FAVORITES</a>
-  <a href="https://www.google.com/">Search for more!</a>
+
+<body style="background-color:powderblue">
+<h1 style="text-align: center">LINKS</h1>
+  <center>
+  <a class="one" href="Index.html">ABOUT ME</a><br>
+  <a class="two" href="page1.html">FAVORITES</a><br>
+  <a class="three" href="https://www.google.com/">Search for more!</a><br>
+  </center>
 </body>
+</html>
