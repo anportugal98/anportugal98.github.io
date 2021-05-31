@@ -2,8 +2,8 @@ table {
 	border-spacing: 5px 0px;
 	width: 90%; height: 100%; overflow: hidden;
 	font-family: "Courier New", monospace;	
-	 margin-left: 20px;
-  margin-right: 50px;
+	margin-left: 20px;
+        margin-right: 50px;
 }
 
 thead td:nth-child(1){
