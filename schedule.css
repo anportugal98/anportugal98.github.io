@@ -16,7 +16,7 @@ thead td:nth-child(1){
 
 th:nth-child(1) {
 	font-weight: 500;
-	color: #222222;
+	color: #27485b;
 	font-size: 15pt;
 	text-indent: 130px;
 	letter-spacing: 5px;
@@ -32,8 +32,7 @@ tbody td:nth-child(1){
 }
 
 th 	{
-	
-	color: #222222;
+	color: #5b5c5b;
 	padding: 10px;
 	width:100px;
 }
